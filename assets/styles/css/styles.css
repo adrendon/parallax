@@ -2243,7 +2243,7 @@ a, button {
   transition: all 0.8s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
-@-webkit-keyframes phase {
+/*@-webkit-keyframes phase {
   0% {
     opacity: 1;
   }
@@ -2625,7 +2625,7 @@ a, button {
     -moz-transform: rotateZ(-10deg);
     transform: rotateZ(-10deg);
   }
-}
+}*/
 
 html.mouse a:hover, html.mouse button:hover {
   -webkit-transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
