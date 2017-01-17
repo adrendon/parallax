@@ -792,17 +792,24 @@ footer .twitter-share-button {
 }
 
 .title {
-  font-size: 3em;
-  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
-  margin-top: -0.7em;
+  /*font-size: 3em;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);*/
+  /*margin-top: -0.7em;*/
+  background: url(../../images/logo.png) no-repeat;
+  background-size: contain;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  margin: 10% auto 0;
   position: absolute;
-  width: 100%;
-  top: 42%;
+  right: 0;
+  top: 0;
+  width: 50%;
 }
 
 .background {
-  background: url(../../images/background.jpg) no-repeat 50% 100%;
-  bottom: 96px;
+  background: url(../../images/background.png) no-repeat 50% 100%;
+  bottom: 0px;
   background-size: cover;
   position: absolute;
   width: 110%;
@@ -821,11 +828,11 @@ footer .twitter-share-button {
   background-size: 128px 224px;
   height: 224px;
   width: 128px;
-  background-image: url(../../images/lighthouse.png);
+  background-image: url(../../images/cruz.png);
   background-repeat: no-repeat;
   bottom: 64px;
   position: absolute;
-  right: 20%;
+  right: 4%;
 }
 
 .wave {
@@ -835,20 +842,20 @@ footer .twitter-share-button {
   left: -100%;
 }
 .wave:after {
-  background-color: black;
+  /*background-color: black;*/
   position: absolute;
   display: block;
   content: "";
-  height: 500px;
+  height: 417px;
   width: 100%;
   top: 100%;
   left: 0;
 }
 .wave.plain {
-  background-image: url(../../images/wave-plain.png);
+  background-image: url(../../images/muro-footer.png);
 }
 .wave.paint {
-  background-image: url(../../images/wave-paint.png);
+  background-image: url(../../images/muro-footer.png);
 }
 
 .light {
@@ -1506,7 +1513,7 @@ footer .twitter-share-button {
   }
 
   .background {
-    bottom: 96px;
+    bottom: 0px;
   }
 
   .lighthouse {
@@ -1763,7 +1770,7 @@ footer .twitter-share-button {
   }
 
   .background {
-    bottom: 160px;
+    bottom: 0px;
   }
 
   .lighthouse {
@@ -1771,7 +1778,7 @@ footer .twitter-share-button {
     background-size: 208px 364px;
     height: 364px;
     width: 208px;
-    bottom: 128px;
+    bottom: 0px;
   }
 
   .light {
@@ -2015,9 +2022,9 @@ footer .twitter-share-button {
 
   .lighthouse {
     margin: 0px -112px;
-    background-size: 224px 392px;
-    height: 392px;
-    width: 224px;
+    background-size: 80%;
+    height: 680px;
+    width: 416px;
   }
 
   .light {
@@ -2510,57 +2517,57 @@ a, button {
 
 @-webkit-keyframes lighthouse {
   0% {
-    -webkit-transform: translate3d(15%,0,0) rotateZ(10deg);
-    -moz-transform: translate3d(15%,0,0) rotateZ(10deg);
-    transform: translate3d(15%,0,0) rotateZ(10deg);
+    -webkit-transform: translate3d(3%,0,0) rotateZ(10deg);
+    -moz-transform: translate3d(3%,0,0) rotateZ(10deg);
+    transform: translate3d(3%,0,0) rotateZ(10deg);
   }
 
   100% {
-    -webkit-transform: translate3d(-15%,0,0) rotateZ(-10deg);
-    -moz-transform: translate3d(-15%,0,0) rotateZ(-10deg);
-    transform: translate3d(-15%,0,0) rotateZ(-10deg);
+    -webkit-transform: translate3d(-3%,0,0) rotateZ(-10deg);
+    -moz-transform: translate3d(-3%,0,0) rotateZ(-10deg);
+    transform: translate3d(-3%,0,0) rotateZ(-10deg);
   }
 }
 
 @-moz-keyframes lighthouse {
   0% {
-    -webkit-transform: translate3d(15%,0,0) rotateZ(10deg);
-    -moz-transform: translate3d(15%,0,0) rotateZ(10deg);
-    transform: translate3d(15%,0,0) rotateZ(10deg);
+    -webkit-transform: translate3d(3%,0,0) rotateZ(10deg);
+    -moz-transform: translate3d(3%,0,0) rotateZ(10deg);
+    transform: translate3d(3%,0,0) rotateZ(10deg);
   }
 
   100% {
-    -webkit-transform: translate3d(-15%,0,0) rotateZ(-10deg);
-    -moz-transform: translate3d(-15%,0,0) rotateZ(-10deg);
-    transform: translate3d(-15%,0,0) rotateZ(-10deg);
+    -webkit-transform: translate3d(-3%,0,0) rotateZ(-10deg);
+    -moz-transform: translate3d(-3%,0,0) rotateZ(-10deg);
+    transform: translate3d(-3%,0,0) rotateZ(-10deg);
   }
 }
 
 @-ms-keyframes lighthouse {
   0% {
-    -webkit-transform: translate3d(15%,0,0) rotateZ(10deg);
-    -moz-transform: translate3d(15%,0,0) rotateZ(10deg);
-    transform: translate3d(15%,0,0) rotateZ(10deg);
+    -webkit-transform: translate3d(3%,0,0) rotateZ(10deg);
+    -moz-transform: translate3d(3%,0,0) rotateZ(10deg);
+    transform: translate3d(3%,0,0) rotateZ(10deg);
   }
 
   100% {
-    -webkit-transform: translate3d(-15%,0,0) rotateZ(-10deg);
-    -moz-transform: translate3d(-15%,0,0) rotateZ(-10deg);
-    transform: translate3d(-15%,0,0) rotateZ(-10deg);
+    -webkit-transform: translate3d(-3%,0,0) rotateZ(-10deg);
+    -moz-transform: translate3d(-3%,0,0) rotateZ(-10deg);
+    transform: translate3d(-3%,0,0) rotateZ(-10deg);
   }
 }
 
 @keyframes lighthouse {
   0% {
-    -webkit-transform: translate3d(15%,0,0) rotateZ(10deg);
-    -moz-transform: translate3d(15%,0,0) rotateZ(10deg);
-    transform: translate3d(15%,0,0) rotateZ(10deg);
+    -webkit-transform: translate3d(3%,0,0) rotateZ(10deg);
+    -moz-transform: translate3d(3%,0,0) rotateZ(10deg);
+    transform: translate3d(3%,0,0) rotateZ(10deg);
   }
 
   100% {
-    -webkit-transform: translate3d(-15%,0,0) rotateZ(-10deg);
-    -moz-transform: translate3d(-15%,0,0) rotateZ(-10deg);
-    transform: translate3d(-15%,0,0) rotateZ(-10deg);
+    -webkit-transform: translate3d(-3%,0,0) rotateZ(-10deg);
+    -moz-transform: translate3d(-3%,0,0) rotateZ(-10deg);
+    transform: translate3d(-3%,0,0) rotateZ(-10deg);
   }
 }
 
