@@ -852,7 +852,7 @@ footer .twitter-share-button {
   left: 0;
 }
 .wave.plain {
-  background-image: url(../../images/muro-footer.png);
+  background-image: url(../../images/muro-header.png);
 }
 .wave.paint {
   background-image: url(../../images/muro-footer.png);
@@ -2208,8 +2208,8 @@ footer .twitter-share-button {
   .wave.depth-100 {
     bottom: -72px;
     margin: 0px 0px;
-    background-size: 720px 288px;
-    height: 288px;
+    background-size: 2080px 417px;
+    height: 417px;
   }
   .wave.depth-100:after {
     height: 0px;
