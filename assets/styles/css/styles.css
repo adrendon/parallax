@@ -2740,12 +2740,12 @@ html.touch .links a.tap {
 ============================================================================= */
 
 .botones {
-  left: 0;
-  margin: auto;
   position: absolute;
-  right: 0;
-  top: 2%;
   z-index: 1000;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 2%;
 }
 
 html         { overflow-y:hidden; }
@@ -2779,43 +2779,43 @@ html         { overflow-y:hidden; }
 /* home -------------------------- */
 .page-home.ng-leave         {
     -webkit-transform-origin: 0% 0%;
-  -webkit-animation: slideOutLeft 0.5s both ease;
+  -webkit-animation: slideOutLeft 1.5s both ease;
   -moz-transform-origin: 0% 0%;
-  -moz-animation: slideOutLeft 0.5s both ease;
+  -moz-animation: slideOutLeft 1.5s both ease;
   transform-origin: 0% 0%;
-  animation: slideOutLeft 0.5s both ease;
+  animation: slideOutLeft 1.5s both ease;
 }
 .page-home.ng-enter     {  
-    -webkit-animation:slideInRight 0.5s both ease;
-  -moz-animation:slideInRight 0.5s both ease;
-  animation:slideInRight 0.5s both ease;    
+    -webkit-animation:slideInRight 1.5s both ease;
+  -moz-animation:slideInRight 1.5s both ease;
+  animation:slideInRight 1.5s both ease;    
 }
 
 /* about ------------------------ */
 .page-about.ng-leave        {
-    -webkit-animation:slideOutLeft 0.5s both ease;
-  -moz-animation:slideOutLeft 0.5s both ease;
-  animation:slideOutLeft 0.5s both ease;   
+    -webkit-animation:slideOutLeft 1.5s both ease;
+  -moz-animation:slideOutLeft 1.5s both ease;
+  animation:slideOutLeft 1.5s both ease;   
 }
 .page-about.ng-enter    {  
-    -webkit-animation:slideInRight 0.5s both ease;
-  -moz-animation:slideInRight 0.5s both ease;
-  animation:slideInRight 0.5s both ease;    
+    -webkit-animation:slideInRight 1.5s both ease;
+  -moz-animation:slideInRight 1.5s both ease;
+  animation:slideInRight 1.5s both ease;    
 }
 
 /* contact ---------------------- */
 .page-contact.ng-leave      {
     -webkit-transform-origin: 50% 50%;
-  -webkit-animation: slideOutLeft 0.5s both ease;
+  -webkit-animation: slideOutLeft 1.5s both ease;
   -moz-transform-origin: 50% 50%;
-  -moz-animation: slideOutLeft 0.5s both ease;
+  -moz-animation: slideOutLeft 1.5s both ease;
   transform-origin: 50% 50%;
-  animation: slideOutLeft 0.5s both ease;
+  animation: slideOutLeft 1.5s both ease;
 }
 .page-contact.ng-enter    { 
-    -webkit-animation:slideInRight 0.5s both ease;
-  -moz-animation:slideInRight 0.5s both ease;
-  animation:slideInRight 0.5s both ease;  
+    -webkit-animation:slideInRight 1.5s both ease;
+  -moz-animation:slideInRight 1.5s both ease;
+  animation:slideInRight 1.5s both ease;  
 }
 
 /* slide in from the right */
